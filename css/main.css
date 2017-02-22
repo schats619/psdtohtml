@@ -1,0 +1,375 @@
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+
+    .container{
+        height:700px;
+    }
+}
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .container{
+        height:700px;
+    }
+}
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .container{
+        height:700px;
+    }
+}
+html,body, h1
+{
+    margin:0px;
+    padding:0px;
+    font-family:"Tahoma";
+
+}
+
+.logo h1{
+
+    font-family:"Tahoma";
+    height:10px;
+}
+
+p{
+    margin: 2px;
+    padding: 0;
+    font-family:"Tahoma";
+    color:grey;
+
+}
+.para1 {
+    color:grey;
+
+    font-size: 14px;
+}
+.para2, .para3, .para4, .para5{
+    font-family:"Tahoma";
+    font-size: 12px;
+    color:grey;
+
+}
+
+.contact_heading{
+    color:orangered;
+    font-weight:bold;
+}
+h1{
+    color:orangered;
+    font-family: Arial;
+
+}
+h2{
+    color:orangered;
+    font-weight:lighter;
+}
+
+.container{
+    height:700px;
+}
+.Content {
+    padding-left: 250px;
+    width: 1160px;
+    height:300px;
+    overflow-y: scroll;
+}
+
+.contact_info1{
+    font-size: 14px;
+}
+.contact_info2{
+    font-size: 14px;
+
+}
+.heading1{
+    background-color: grey;
+    height:60px;
+    margin: 0 auto;
+    position:relative;
+
+}
+
+.heading2{
+
+    background-color: orangered;
+    height:25px;
+    margin: 0 auto;
+    font-family: "PT Sans";
+    color:brown;
+    font-weight:bold;
+    text-align: justify;
+    text-transform: uppercase;
+    padding: 5px;
+    padding-left:250px;
+    position:relative;
+    width: 1183px;
+
+}
+
+div .banner{
+    margin-bottom: 20px;
+    font-family:"Tahoma";
+    font-weight: lighter;
+    text-align: justify;
+    margin-top: 0px;
+
+}
+#signup{
+    margin-left:450px;
+    font-weight: lighter;
+
+
+}
+
+
+#phonenumber{
+
+    color:#fff;
+    font-weight:lighter;
+
+
+}
+
+/* Background for logo and Menu */
+
+div .menu_bar{
+
+    background-color: #FAFAFA;
+    padding: 5px;
+    padding-left: 254px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    text-align: justify;
+    margin-left:0px;
+    height:100px;
+
+
+}
+
+/* Main Menu */
+
+#primary_nav_wrap
+{
+    margin-top:15px;
+    padding-left:350px;
+}
+
+#primary_nav_wrap ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul a
+{
+    display:block;
+    color:#333;
+    text-decoration:none;
+    padding: 0px;
+    font-size:12px;
+    line-height:62px;
+    font-weight: bold;
+    padding:0 10px;
+    text-transform: uppercase;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+
+}
+
+#primary_nav_wrap li:hover
+{
+    border-bottom: 4px solid orangered;
+}
+
+#primary_nav_wrap ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    border: 1px solid black;
+    padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+    float:none;
+    width:150px;
+}
+
+#primary_nav_wrap ul ul a
+{
+    line-height:110%;
+    padding:10px 35px
+}
+
+#primary_nav_wrap ul ul ul
+{
+    top:0;
+    left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+
+    display:block;
+}
+
+.main_logo{
+    font-family: "Tahoma";
+
+}
+.menu_bar{
+    margin: 0 auto;
+    display: inline-block;
+    width: 1183px;
+    height: 120px;
+    margin: 10px;
+}
+
+
+/*Mini Menu*/
+
+#mini_menu ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    font-size:14px;
+    color: grey;
+
+}
+
+
+#mini_menu  li+li:before {
+    content: " / ";
+    padding:0;
+}
+
+#login_signup_menu ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+
+
+}
+#mini_menu  li {
+    display: inline-block;
+    padding:0px;
+}
+
+
+a:link{
+    text-decoration: none;
+}
+
+
+.Content {
+    top:40%;
+    height:100%;
+
+}
+
+/*Contact and Message Box*/
+
+
+ .ContactBox{
+     float:left;
+    width: 460px;
+    height: 75px;
+    margin: 0px;
+    border-bottom:6px solid black;
+
+ }
+ .MessageBox{
+
+    float:right;
+    width: 460px;
+    height: 75px;
+    margin: 102px;
+    border-bottom:6px solid black;
+}
+
+
+ .ContactBox , .MessageBox{
+     margin-top: 34px;
+
+ }
+a:link {
+    color: grey;
+}
+
+.contact_form input{
+
+    margin-bottom:10px;
+    height:25px;
+    font-size:12px;
+    font-family:Arial;
+}
+.contact_form input, textarea{
+
+    background-color:#f2f2f2;
+    border-style:none;
+
+
+}
+
+/*submit button*/
+
+.button{
+
+    background-color: #ff8000; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight:bold;
+    margin-top:22px;
+}
+
+.glyphicons{
+
+    padding-top:25px;
+
+
+}
+
+/* Footer CSS */
+.footer{
+    background-color: grey;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:20px;
+    margin-bottom:0px;
+    padding: 10px 20px;
+}
